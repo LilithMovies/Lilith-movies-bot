@@ -26,7 +26,7 @@ db = client['bot_database']
 collection = db['videos']
 
 # ၃။ Telegram Bot သတ်မှတ်ခြင်း
-API_TOKEN = 'မိတ်ဆွေရဲ့_Bot_Token_ကို_ဒီမှာ_အစားထိုးပါ'
+API_TOKEN = '8395497642:AAEaRUKBxz05Ywyuf4vTEMBvLBYncEba8gU'
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(content_types=['video'])
